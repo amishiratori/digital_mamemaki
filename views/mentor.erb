@@ -2,15 +2,17 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<title>デジタル豆まき</title>
+	<title>Valentine Challenge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href=".././css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+
 </head>
 <body>
-	<div class="content">
-		<h1><%= @mentor.name %>に豆をなげよう！</h1>
-    <h2><span id="peas"><%= @mentor.peas %></span>個</h2>
+	<div class="container">
+		<h1><%= @mentor.name %>にチョコをあげよう！</h1>
+    <h2><span id="peas"><%= @mentor.peas %></span>コ</h2>
     <div class="mamemaki">
       <img src="../<%= @mentor.img %>">
     </div>
@@ -34,7 +36,11 @@
 
           img.onload = function(){
             console.log(e.pageX,e.pageY);
-            ctx.drawImage(img,e.pageX/4,e.pageY/4,15,15);
+            if (window.parent.screen.width >= 900 ){
+              ctx.drawImage(img,e.pageX/4,e.pageY/5,15,15);
+            }else{
+              ctx.drawImage(img,e.pageX/1.5,e.pageY/5,35,15);
+            }
           }
       })
     })

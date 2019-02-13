@@ -1,10 +1,27 @@
+*{
+  font-family: "Nico Moji";
+  color: #6c272d;
+}
 .content {
   position: absolute;
   width: 100vw;
   top: 0;
+  left: 0;
   z-index: -2;
   text-align: center;
   overflow: hidden;
+  background: #ede4e1;
+}
+.container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  text-align: center;
+  overflow: hidden;
+  background: #ede4e1;
 }
 
 #canvas {
@@ -15,6 +32,13 @@
   z-index: 10000;
 }
 
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 3rem;
+}
 
 @media only screen and (min-width: 900px) {
   .mentor {
@@ -29,6 +53,7 @@
   .mentor a{
     text-decoration: none;
     line-height: 0.5rem;
+    font-size: 2rem;
   }
   .mamemaki {
     width: 40vw;

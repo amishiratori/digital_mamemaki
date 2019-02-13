@@ -1,110 +1,60 @@
 Mentor.create({
-  name: 'きゃおりん',
-  img: './images/kyaorin.jpg',
+  name: 'さきんちょ',
+  img: './images/sakincho.jpeg',
   peas: 0
 })
 Mentor.create({
-  name: 'ぱとら',
-  img: './images/patora.jpg',
+  name: 'とうよう',
+  img: './images/touyou.jpeg',
   peas: 0
 })
 Mentor.create({
-  name: 'ちゃんりか',
-  img: './images/chanrika.jpg',
-  peas: 0
-})
-Mentor.create({
-  name: 'あーりん',
-  img: './images/a-rinn.jpg',
-  peas: 0
-})
-Mentor.create({
-  name: 'やむちゃ',
-  img: './images/yamcha.jpg',
-  peas: 0
-})
-Mentor.create({
-  name: 'ひっきー',
-  img: './images/hikki-.jpg',
-  peas: 0
-})
-Mentor.create({
-  name: 'がおー',
-  img: './images/gao-.jpg',
+  name: 'るんるん',
+  img: './images/runrun.jpeg',
   peas: 0
 })
 Mentor.create({
   name: 'まーしー',
-  img: './images/ma-shi-.jpg',
+  img: './images/ma-shi-.jpeg',
   peas: 0
 })
 Mentor.create({
-  name: 'りゅーじん',
-  img: './images/ryujin.jpg',
+  name: 'きい',
+  img: './images/keey.jpeg',
   peas: 0
 })
 Mentor.create({
-  name: 'カトリーヌ',
-  img: './images/kato.jpg',
+  name: 'じゅんじゅん',
+  img: './images/junjun.jpeg',
   peas: 0
 })
 Mentor.create({
-  name: 'やけん',
-  img: './images/yaken.jpg',
+  name: 'えびてん',
+  img: './images/ebiten.jpeg',
   peas: 0
 })
 Mentor.create({
-  name: 'ニノ',
-  img: './images/nino.jpg',
-  peas: 0
-})
-Mentor.create({
-  name: 'はずき',
-  img: './images/hazuki.png',
-  peas: 0
-})
-Mentor.create({
-  name: 'ゆってぃー',
-  img: './images/yuttei.jpg',
-  peas: 0
-})
-Mentor.create({
-  name: 'ユウジ',
-  img: './images/yuji.jpg',
-  peas: 0
-})
-Mentor.create({
-  name: 'みやじー',
-  img: './images/miyaji.jpg',
-  peas: 0
-})
-Mentor.create({
-  name: 'えるえる',
-  img: './images/eru.jpg',
-  peas: 0
-})
-Mentor.create({
-  name: 'おすず',
-  img: './images/osuzu.jpg',
+  name: 'マイク',
+  img: './images/mike.jpeg',
   peas: 0
 })
 Mentor.create({
   name: 'あみたん',
-  img: './images/amitan.jpg',
+  img: './images/amitan.jpeg',
   peas: 0
 })
 Mentor.create({
-  name: 'よっしー',
-  img: './images/yossy.jpg',
+  name: 'いとさん',
+  img: './images/itosan.jpeg',
   peas: 0
 })
 Mentor.create({
-  name: 'おんじ',
-  img: './images/onj.jpg',
+  name: 'ふなみん',
+  img: './images/funamin.jpeg',
   peas: 0
 })
 Mentor.create({
-  name: 'かんかん',
-  img: './images/kankan.jpg',
+  name: 'しゅんぺー',
+  img: './images/shumpei.jpeg',
   peas: 0
 })
