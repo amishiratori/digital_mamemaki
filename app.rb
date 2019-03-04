@@ -17,8 +17,3 @@ post '/peas/:id' do
   mentor = Mentor.find(params[:id])
   mentor.update_column(:peas, mentor.peas + 1)
 end
-
-get '/nino' do
-    mentor = Mentor.find(12)
-    mentor.update_column(:peas, mentor.peas + 69145678)
-end
